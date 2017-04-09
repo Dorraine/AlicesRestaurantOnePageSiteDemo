@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "haveaniceday";
+    src: url("fonts/HAVEANICEDAYTallW04Bold.woff2") format('woff2');
+    font-weight: bold;
+}
+div#contain-it-all {
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+}
+header, section, footer {
+	background-color:#ffffff;
+}
+
+header {
+    margin: 0px;
+    height: 174px;
+    padding: 0px;
+    width: 1600px;
+}
+
+img#navlogo {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 115px;
+    padding-left: 200px;
+}
+
+div#double-outer-border {
+    background-color: #ffffff;
+    border-top: 2px solid #f86d78;
+    border-bottom: 2px solid #f86d78;
+    margin-top: 47px;
+    margin-bottom: 50px;
+}
+
+ul#nav{
+    text-align: center;
+    border-top: 2px solid #f86d78;
+    border-bottom: 2px solid #f86d78;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 50px;
+    padding-bottom: 15px;
+}
+    ul#nav li{
+        list-style: none;
+        display: block;
+        float: left;
+        
+}
+
+    ul#nav a{
+        text-decoration: none;
+        font-family: "haveaniceday";
+        font-size: 27px;
+        padding: 15px;
+        width: 120px;
+        display: block;
+        color: #3e3934;
+        text-align: center;
+}
+
+    ul#nav a:hover{
+        color: #f42434;
+}
+
+/* main body from banner down */
+banner {
+    margin: 0 auto;
+    position:relative;
+}
+
+
+div#either-side {
+    background-color:#eae8e6;
+}
+
+section {
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+
+article {
+    background-color: #eae8e6;
+}
+article p,
+article li{
+    color: #434343;
+    font-size: 1em;
+}
+article a {
+    text-decoration: none;
+    color: #434343;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+
+/* history styles start here */
+
+article#history {
+    color: #434343;
+    width: 805px;
+    height: 463;
+    margin-left: 258px;
+    padding-bottom: 75px;
+    padding-top: 0;
+    margin-top: 0;
+    bottom: 50px;
+    position: relative;
+}
+
+    article#history::before {
+        position:absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #eae8e6;
+        transform-origin: top left;
+        transform: skewY(-5deg);
+        z-index: -10;
+}
+    article#history::after {
+        position:absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #eae8e6;
+        transform-origin: bottom left;
+        transform: skewY(5deg);
+        z-index: -10;
+}
+
+    article#history h3 {
+        font-family: "haveaniceday";
+        color: #f33948;
+        font-size: 27px;  
+        text-align: center;
+}
+
+    article div#historypic {
+        text-align: center;
+}
+    article div#centerme {
+        text-align: justify;
+        margin: 0 auto;
+        width: 658px;
+}
+
+img#ketchup {
+    margin-top: 0;
+    margin-left: 675px;
+}
+/* menu styles starts here */
+
+article#menu {
+    width: 777px;
+    height: 333px;
+    margin-left: 65px;
+    position: relative;
+}
+
+    article#menu::before {
+        position:absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #eae8e6;
+        transform-origin: top right;
+        transform: skewY(-5deg);
+        z-index: -10;
+}
+    article#menu::after {
+        position:absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #eae8e6;
+        transform-origin: bottom right;
+        transform: skewY(5deg);
+        z-index: -10;
+}
+    article img#menupic {
+        margin-left: 120px;
+}
+    article#menu p {
+        margin-left: 70px;
+}
+
+img#burger-fries {
+    margin-left: 482px;
+    position: relative;
+}
+
+/* contact styles starts here */
+
+article#contact {
+    width: 686px;
+    height: 395px;
+    margin-left: 256px;
+    position: relative;
+}
+
+    article#contact::before {
+        position:absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #eae8e6;
+        transform-origin: top left;
+        transform: skewY(-5deg);
+        z-index: -10;
+}
+    img#contactpic {
+        margin: 50px 250px 43px 247px;
+        
+}
+
+    article#contact table {
+        width: 620px;
+}
+
+    article#contact td {
+        width: 320px;
+        padding-left: 52px;
+        padding-right: 3px;
+        text-align: justify;
+}
+
+    p#contacthours {
+        color: #f33948;
+}
+
+/* footer starts here */
+
+footer {
+    width: 1600px;
+}
+
+div#double-footer-border {
+    background-color: #ffffff;
+    border-top: 2px solid #f86d78;
+    border-bottom: 2px solid #f86d78;
+}
+
+footer ul{
+    border-top: 2px solid #f86d78;
+    border-bottom: 2px solid #f86d78;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 58px;
+}
+    ul#footer li {
+        list-style: none;
+        display: block;
+        float: right;
+        font-family: "haveaniceday";
+        font-size: 27px;
+        color: #3e3934;
+}
+img#returntop {
+    padding-left: 310px;
+    padding-right: 210px;
+    margin-bottom: 0px;
+}
